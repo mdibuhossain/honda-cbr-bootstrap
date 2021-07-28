@@ -32,3 +32,6 @@ nav{
     top: 3px;
     background-color: #E76F51;
 }
+.feature-bike div:nth-child(2n+1) img{
+    filter: grayscale(100%);
+}
