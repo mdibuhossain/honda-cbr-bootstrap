@@ -1,3 +1,13 @@
+/* Font family link*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-weight: 600;
+}
+
 a{
     text-decoration: none;
     color: whitesmoke;
@@ -34,4 +44,33 @@ nav{
 }
 .feature-bike div:nth-child(2n+1) img{
     filter: grayscale(100%);
+}
+
+.specialText{
+    color: #E76F51;
+}
+.clients-body{
+    padding: 40px 35px;
+}
+.clients-content div{
+    margin-top: 15px;
+}
+.clients-content div:first-child{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.clientComments{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #6C6C6C;
+}
+.ratingStar{
+    font-size: 1.2rem;
+    color: #E77C40;
+}
+.clientsName{
+    font-weight: 500;
+    color: #23A6F0;
 }
