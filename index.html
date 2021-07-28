@@ -38,9 +38,12 @@
                     <div>
                         <small>Computer-controlled digital transistorized with electronic advance</small>
                         <h1 class="fw-bold pt-2 pb-3">Honda CBR 300R</h1>
-                        <p class="mb-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                        <p class="mb-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                            officia
                             consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                        <a href="" class="btn myBtn px-5">Purchase</a>
+                        <!-- Button trigger modal -->
+                        <a href="" class="btn myBtn px-5" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">Purchase</a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -48,6 +51,54 @@
                 </div>
             </div>
         </section>
+        <!-- Modal -->
+        <form>
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-success">
+                            <div class="mb-4">
+                                <h1 class="text-primary text-center">Ready for the future?</h1>
+                                <h2 class="text-primary text-center">Get a product demo today.</h2>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input required type="text" class="form-control" id="floatingInput"
+                                    placeholder="first name">
+                                <label for="floatingInput">First name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input required type="text" class="form-control" id="floatingInput"
+                                    placeholder="last name">
+                                <label for="floatingInput">Last name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="company">
+                                <label for="floatingInput">Company</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input required type="email" class="form-control" id="floatingInput"
+                                    placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input required type="number" class="form-control" id="floatingInput"
+                                    placeholder="number">
+                                <label for="floatingInput">Phone number</label>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary w-100 fw-bold py-2 fs-5">Get my demo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
 
     </header>
 
