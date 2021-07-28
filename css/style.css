@@ -14,3 +14,21 @@ nav{
     color: whitesmoke;
     font-weight: 500;
 }
+
+
+.featured-subtitle{
+    color: #E76F51;
+    font-weight: 600;
+    position: relative;
+}
+.featured-subtitle::after{
+    content: "";
+    display: block;
+    width: 65px;
+    height: 1.5px;
+    margin: auto;
+    opacity: .9;
+    position: relative;
+    top: 3px;
+    background-color: #E76F51;
+}
