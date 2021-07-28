@@ -1,0 +1,16 @@
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#header{
+    background-color: #264653;
+    color: whitesmoke;
+}
+nav{
+    font-weight: 500;
+}
+.myBtn{
+    background-color: #E76F51;
+    color: whitesmoke;
+    font-weight: 500;
+}
