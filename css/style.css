@@ -13,7 +13,7 @@ a{
     color: whitesmoke;
 }
 .section-spacing{
-    margin-top: 150px;
+    margin-top: 120px;
 }
 .section-title-spacing{
     margin-bottom: 80px;
@@ -114,17 +114,36 @@ nav{
     box-shadow: none
 }
 
-
+.bike-servicing::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.815);
+    
+}
+.bike-servicing{
+    color: whitesmoke;
+    position: relative;
+    padding: 50px 0;
+    width: 100%;
+    background: url(../images/bike-servicing.jpg) center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.bike-servicing-content{
+    position: relative;
+    max-width: 700px;
+    margin: auto;
+    padding: 0 2px;
+}
 
 footer{
     background-color: #0B0D17;
     color: whitesmoke;
 }
-/* .app-download-poster{
-    display: flex;
-    flex-direction: column;
-
-} */
 .app-download-poster img{
     width: 9rem;
     height: auto;
