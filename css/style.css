@@ -95,4 +95,15 @@ nav{
 
 footer{
     background-color: #0B0D17;
+    color: whitesmoke;
+}
+/* .app-download-poster{
+    display: flex;
+    flex-direction: column;
+
+} */
+.app-download-poster img{
+    width: 9rem;
+    height: auto;
+    margin-bottom: 1rem;
 }
