@@ -12,6 +12,12 @@ a{
     text-decoration: none;
     color: whitesmoke;
 }
+.section-spacing{
+    margin-top: 150px;
+}
+.section-title-spacing{
+    margin-bottom: 80px;
+}
 #header{
     background-color: #264653;
     color: whitesmoke;
