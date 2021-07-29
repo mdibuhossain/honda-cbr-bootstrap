@@ -24,6 +24,22 @@ nav{
     color: whitesmoke;
     font-weight: 500;
 }
+.latest-news-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 160px;
+    height: 57px;
+    background-color: #E76F51;
+    color: whitesmoke;
+}
+.latest-news>div:not(:first-child) .latest-news-btn{
+    background: none;
+    border: 2px solid #E76F51;
+    color: #E76F51;
+    font-weight: 500;
+}
 
 
 .featured-subtitle{
