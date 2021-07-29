@@ -86,6 +86,7 @@ nav{
     margin-bottom: 1.3rem;
 }
 .accordion-button:not(.collapsed){
+    color: black;
     background: none;
     border-bottom: none;
     box-shadow: none
